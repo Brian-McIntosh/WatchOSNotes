@@ -15,7 +15,6 @@ struct ContentView: View {
     @AppStorage("lineCount") var lineCount: Int = 1
     
     // MARK: - FUNCTON
-    
     func getDocumentDirectory() -> URL {
         let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         return path[0]
@@ -27,7 +26,7 @@ struct ContentView: View {
             // 1. convert notes array to data using JSONEncoder
             let data = try JSONEncoder().encode(notes)
             
-            // 2. create anew url to save the file using the getDoc...
+            // 2. create a new url to save the file using the getDoc...
             let url = getDocumentDirectory().appendingPathComponent("notes")
             
             // 3. write the data to the given url
@@ -65,13 +64,9 @@ struct ContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        
         NavigationStack {
-            
             VStack(alignment: .center) {
-                
                 HStack(alignment: .center, spacing: 6) {
-                    
                     TextField("Add New Note", text: $text)
                     
                     Button {
