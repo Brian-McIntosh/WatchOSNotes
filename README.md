@@ -1,4 +1,6 @@
 # WatchOSNotes
+<img src="https://github.com/Brian-McIntosh/WatchOSNotes/blob/main/images/1.png" width="700">
+
 
 TOPICS WILL BE COVERED:
 
