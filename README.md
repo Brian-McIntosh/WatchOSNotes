@@ -1,4 +1,5 @@
 # WatchOSNotes
+### Use FileManager to Store an Array as JSONEncoded Data to the Documents Directory
 <img src="https://github.com/Brian-McIntosh/WatchOSNotes/blob/main/images/1.png" width="700">
 
 
